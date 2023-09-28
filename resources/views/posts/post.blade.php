@@ -4,7 +4,7 @@
     <div class="flex justify-center">
         <div class="w-8/12 rounded-lg bg-white p-6">
             @if (session('status'))
-                <div class="mb-3 rounded-lg bg-green-500 w-4/12 translate-x-6 p-3 text-center font-medium text-white">
+                <div class="mb-3 rounded-lg bg-green-400 w-full p-3 text-center font-medium text-white">
                     {{ session('status') }}
                 </div>
             @endif
